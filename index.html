@@ -1,10 +1,17 @@
-<div class="game" style="width:250px; height:500px;"></div>
-<!-- The stylesheet should go in the <head>, or be included in your CSS -->
-<link rel="stylesheet" href="blockrain.css">
+<head>
+    <!-- The stylesheet should go in the <head>, or be included in your CSS -->
+    <link rel="stylesheet" href="blockrain.css">
+</head>
+<body>
+    <div class="game" style="width:250px; height:500px;"></div>
 
-<!-- jQuery and Blockrain.js -->
-<script src="jquery.js"></script>
-<script src="blockrain.js"></script>
-<script>
-    $('.game').blockrain();
-</script>
+    <!-- jQuery and Blockrain.js -->
+    <script src="jquery.js"></script>
+    <script src="blockrain.js"></script>
+    <script>
+        $('.game').blockrain();
+    </script>
+    <script>
+         $game.blockrain('start');
+    </script>
+</body>
